@@ -1,0 +1,113 @@
+/* Set font and background color for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: lightgreen;
+    padding: 20px;
+  }
+  
+  /* Style the main content area */
+  main {
+    background-color: lightblue;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the candy info section */
+  .candy-info {
+    margin-bottom: 40px;
+  }
+  
+  .candy-info img {
+    display: block;
+    margin: 0 auto;
+    max-width: 40%;
+  }
+  
+  /* Style the candy facts section */
+  .candy-facts {
+    margin-bottom: 40px;
+  }
+  
+  .candy-facts ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .candy-facts li {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: lightgreen;
+    padding: 20px;
+  }
+  
+  .footer-logo img {
+    max-width: 10%;
+  }
+  
+  .footer-info p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .contact-form {
+    margin-top: 20px;
+  }
+  
+  /* Style the form fields */
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  form textarea {
+    height: 150px;
+  }
+  
+  /* Style the form submit button */
+  form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Add hover effect for submit button */
+  form input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Add hover effect for candy-info image */
+  .candy-info img:hover {
+    opacity: 0.8;
+  }
+  
+  /* Add hover effect for candy-facts list items */
+  .candy-facts li:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Add hover effect for footer links */
+  .footer-info a:hover {
+    text-decoration: underline;
+  }
